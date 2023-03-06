@@ -78,7 +78,7 @@ body {
     font-style: normal; 
 }
 
-.header-mail {
+.header-adress-link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -87,22 +87,8 @@ body {
     color: var(--header-tel-mail);
 }
 
-.header-mail:hover,
-.header-mail:focus {
-    color: var(--header-tel-mail-active);
-}
-
-.header-tel {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--header-tel-mail);
-}
-
-.header-tel:hover,
-.header-tel:focus {
+.header-adress-link:hover,
+.header-adress-link:focus {
     color: var(--header-tel-mail-active);
 }
 
