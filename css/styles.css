@@ -1,4 +1,5 @@
 :root {
+    --body-color: #434455;
     --hero-tytle-color: #FFFFFF;
     --hero-btn-color: #FFFFFF; 
     --main-color: #2E2F42; 
@@ -22,7 +23,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--main-color);
+    color: var(--body-color)
 }
 
 .link {
@@ -39,7 +40,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -71,6 +72,10 @@ body {
 .header-link:hover,
 .header-link:focus {
     color: var(--header-link-color-active); 
+}
+
+.adress {
+    font-style: normal; 
 }
 
 .header-mail {
@@ -113,6 +118,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
     color: var(--hero-tytle-color);
 }
 
@@ -138,6 +144,8 @@ body {
 /**---------SECTION GOALS---------*/
 
 .goals {}
+
+.goals-list {}
 
 .goals-list {}
 
@@ -214,7 +222,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
