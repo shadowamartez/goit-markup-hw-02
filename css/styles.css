@@ -41,27 +41,16 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--header-logo);
 }
 
 .header-logo-studio {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--main-color);
 }
 
 .header-link {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -95,8 +84,6 @@ body {
 /**---------HERO---------*/
 
 .hero {
-    width: 1440px;
-    height: 600px;
     background-color: var(--main-color);
 }
 
@@ -113,8 +100,6 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--hero-btn-color);
     background-color: var(--hero-btn-bckg-color-nonactive);
@@ -205,14 +190,6 @@ body {
 }
 
 .footer-logo-studio {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--footer-logo-studio-color);
 }
 
@@ -233,13 +210,9 @@ body {
 
 .portfolio-hero-btn {
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     color: var(--portfolio-hero-btn-color);
     background-color: var(--portfolio-hero-bck-color-nonactive);
